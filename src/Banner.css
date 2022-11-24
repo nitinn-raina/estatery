@@ -1,0 +1,48 @@
+.banner {
+    height: 50vh;
+    position: relative;
+    background : url("http://cdn.home-designing.com/wp-content/uploads/2021/04/luxury-living-room-1.jpg") center center;
+}
+
+.banner__info{
+    background-color: rgba(0, 0, 0, 0.767);
+    color: white;
+    padding: 25px 50px 40px;
+    width: 350px;
+}
+
+.banner__info > h5{
+    margin-top: 10px;
+}
+
+.banner__search{
+    display:flex;
+    flex-direction: column;
+
+}
+
+.banner__searchButton{
+    background-color: white !important;
+    font-weight: 900 !important;
+    text-transform: inherit !important;
+    color: rgb(82, 62, 35) !important;
+}
+
+
+.banner__info > button{
+    background-color: rgb(239, 221, 195);
+    color : black;
+    text-transform :inherit;
+    border : none;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.banner__info > button:hover{
+    background-color: white;
+    color:rgba(0, 0, 0, 0.804);
+    border : none;
+    margin-top: 20px;
+    font-weight: 600;
+    
+}
